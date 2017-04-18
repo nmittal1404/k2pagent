@@ -8,7 +8,7 @@ https://github.com/nmittal1404/k2pagent/raw/master/k2pagent.zip
 
 1. unzip downloaded agent to any location say k2p. 
 
-2. Make sure "java -version" command works in your environment and it return version >= 1.8. If required version is not available, then download (https://java.com/en/download/) and install it.
+2. Make sure "java -version" command works in your environment and it return version >= 1.8. If required version is not available, then download (https://java.com/en/download/) and install it. You may have to add path to java bin directory in your PATH if it is not already present.
 
 3. Go to https://kloud2premise.appspot.com/agent/new and generate new agent init key.
 
