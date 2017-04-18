@@ -1,5 +1,5 @@
 # k2pagent
-Agent for kloud2premise.appspot.com. This provides the k2p agent and different task definition samples which can be used with it.
+Agent for kloud2premise.appspot.com. 
 
 # Download Agent
 https://github.com/nmittal1404/k2pagent/raw/master/k2pagent.zip
