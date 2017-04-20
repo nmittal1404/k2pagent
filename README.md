@@ -1,4 +1,4 @@
-" # Quick Start
+ " # Quick Start
 
 1. Download Agent: https://github.com/nmittal1404/k2pagent/raw/master/k2pagent.zip
 
@@ -14,6 +14,6 @@
 
 8. Open another terminal and add task: Execute k2p/bin/k2p addTask k2p/doc/task.json. It will create a task with name myFirstTask on https://kloud2premise.appspot.com/task/list. This task will print the content of agent's bin directory. You can directly create task from the kloud2premise UI as well.
 
-9. Go to kloud2premise UI http://kloud2premise.appspot.com/exec/new?taskName=myFirstTask and submit this task for execution. You should see the execution result in few seconds. You can also submit task using restful API, you can make post request to https://kloud2premise.appspot.com/api/exec/myFirstTask/[Agent Name]. To call API you would need to first call create keys from UI https://kloud2premise.appspot.com/apiclnt/list. Curl example to call the API: "curl --data '' -i -u 564939167453453454:NUG4SC8J4V71m0yGeafdfggf8EqweAv0h2RJQIbKD4= -H 'Accept:application/json' https://kloud2premise.appspot.com/api/exec/myFirstTask/myAgent"
+9. Go to kloud2premise UI http://kloud2premise.appspot.com/exec/new?taskName=myFirstTask and submit this task for execution. You should see the execution result in few seconds. You can also submit task using restful API, you can make post request to https://kloud2premise.appspot.com/api/exec/myFirstTask/[Agent Name] using basic authentication (client Id as username and auth key as password). To call API you would need to first call create keys from UI https://kloud2premise.appspot.com/apiclnt/list. Curl example to call the API: "curl --data '' -i -u 564939167453453454:NUG4SC8J4V71m0yGeafdfggf8EqweAv0h2RJQIbKD4= -H 'Accept:application/json' https://kloud2premise.appspot.com/api/exec/myFirstTask/myAgent"
 
 Please visit https://github.com/nmittal1404/k2pagent/wiki for more sample task definition
